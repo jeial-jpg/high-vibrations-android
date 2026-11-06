@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- золото интерфейса -->
+    <color name="hv_gold_dark">#AC9034</color>
+    <color name="hv_gold">#C5B04F</color>
+    <color name="hv_gold_light">#E8D27F</color>
+    <color name="hv_gold_text">#B69B35</color>
+    <!-- текст -->
+    <color name="hv_ink">#332C27</color>
+    <color name="hv_muted">#89878F</color>
+    <color name="hv_hint">#9A98A0</color>
+    <!-- поверхности -->
+    <color name="hv_card">#F8F8F7</color>
+    <color name="hv_white">#FFFFFF</color>
+</resources>

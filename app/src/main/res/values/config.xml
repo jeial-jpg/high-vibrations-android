@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ЕДИНСТВЕННЫЙ ФАЙЛ, КОТОРЫЙ НУЖНО ПРАВИТЬ.
+
+    start_url            - адрес, который открывается сразу при запуске
+    allow_subdomains     - true : поддомены (sub.example.ru) тоже разрешены
+    lock_to_site         - true : уйти на другой сайт нельзя (киоск)
+                           false: обычный браузер без адресной строки
+    extra_allowed_hosts  - дополнительные домены, если сайт уводит на них
+                           всем окном (оплата, OAuth, CDN-страницы).
+                           Обычно пусто: картинки/скрипты с чужих CDN
+                           не блокируются и так.
+-->
+<resources>
+    <string name="start_url" translatable="false">https://high-vibrations.ru/</string>
+    <bool name="allow_subdomains">true</bool>
+    <bool name="lock_to_site">true</bool>
+    <string-array name="extra_allowed_hosts" translatable="false" />
+</resources>
